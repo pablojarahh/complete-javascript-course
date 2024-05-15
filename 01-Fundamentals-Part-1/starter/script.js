@@ -44,3 +44,25 @@ console.log(typeof year);
 year = 1991;
 console.log(typeof year);
 */
+
+const firstName = "Pablo";
+const job = "Project Manager";
+const birthYear = 1994;
+const year = 2024;
+
+const pablo = "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+console.log(pablo);
+
+// IMPORTANTE: Al uso de la `` se le llama Template Literal
+const pabloNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(pabloNew);
+
+console.log(`Just a regular string...`);
+
+// \n es para dejar un renglon y si coloco una barra al final \ puedo en mi codigo bajar un renglon
+console.log('String with \nmultiple \n\
+lunes');
+
+console.log(`String with 
+multiple
+lines`);
