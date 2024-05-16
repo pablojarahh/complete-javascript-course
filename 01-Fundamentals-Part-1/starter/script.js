@@ -43,7 +43,7 @@ console.log(typeof year);
 
 year = 1991;
 console.log(typeof year);
-*/
+
 
 const firstName = "Pablo";
 const job = "Project Manager";
@@ -66,3 +66,5 @@ lunes');
 console.log(`String with 
 multiple
 lines`);
+*/
+
