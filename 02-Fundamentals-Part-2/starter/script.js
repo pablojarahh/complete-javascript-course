@@ -83,3 +83,32 @@ const checkWinner = function (avgDolphins, avgKoalas){
 
 checkWinner(scoreDolphins, scoreKoalas);
 */
+
+// Introduction to arrays #Leccion39
+const friend1 = 'Michael';
+const friend2 = 'Steven';
+const friend3 = 'Peter';
+
+// Forma 1 de crear arrays 
+const friends = ['Michael', 'Steven', 'Peter'];
+console.log(friends);
+
+// Forma 2 de crear arrays obligatoriamente se usa new Array
+const years = new Array(1991, 1984, 2008, 2020);
+
+// En JS los arrays empiezan en 0
+console.log(friends[0]);
+console.log(friends[2]);
+
+console.log(friends.length);
+// Dentro de los [] se puede colocar cualquier expresion
+console.log(friends[friends.length - 1]);
+
+// Los arrays se pueden mutar/transformar incluso si son const
+friends[2] = 'Jay';
+console.log(friends);
+// friends - ['Bob', 'Alice'] esto no se puede hacer
+
+const firstName = 'Jonas'
+const jonas = [firstName, 'Schmedtmann', 2037 - 1991, 'teacher', friends];
+console.log(jonas);
